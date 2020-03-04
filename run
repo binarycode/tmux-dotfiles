@@ -2,4 +2,4 @@
 
 set -Eeuo pipefail
 
-tmux new-session -A -s `hostname`
+tmux -2 new-session -A -s `hostname`
